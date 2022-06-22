@@ -1,0 +1,21 @@
+body{
+    font-family: verdana;
+    padding: 1rem;
+}
+
+.selected{
+    background-color: aqua;
+}
+
+.selected a{
+    color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    margin: 0.25rem;
+}
